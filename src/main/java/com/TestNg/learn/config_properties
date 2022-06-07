@@ -1,0 +1,4 @@
+url = https://www.rediff.com
+username = Seleniumpanda@reddifmail.com
+password = Selenium@123
+xpath1 = //a[@class= "signin"]
