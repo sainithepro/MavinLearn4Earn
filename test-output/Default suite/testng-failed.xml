@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.headless.concepts.ChromeOptions_Rediff">
+      <class name="com.automation.assignments.Using_Parameters">
         <methods>
-          <include name="Init"/>
-          <include name="Validations"/>
+          <include name="videos"/>
+          <include name="login"/>
+          <include name="Rediff"/>
         </methods>
-      </class> <!-- com.headless.concepts.ChromeOptions_Rediff -->
+      </class> <!-- com.automation.assignments.Using_Parameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

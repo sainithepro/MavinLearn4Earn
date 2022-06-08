@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterAssign">
+
+	<test name="Parameter Test Chrome">
+		<parameter name="Browser" value="Chrome" />
+		<groups>
+
+			<define name="chromeGroup">
+				<include name="run"></include>
+				<include name="Chrome"></include>
+			</define>
+
+			<run>
+				<include name="chromeGroup"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.automation.assignments.Using_Parameters" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Parameter Test Firefox">
+		<parameter name="Browser" value="Firefox" />
+		<groups>
+
+			<define name="firefoxGroup">
+				<include name="run"></include>
+				<include name="Firefox"></include>
+			</define>
+
+			<run>
+				<include name="firefoxGroup"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.automation.assignments.Using_Parameters" />
+		</classes>
+
+
+	</test>
+
+
+</suite> <!-- Suite -->
